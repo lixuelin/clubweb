@@ -1,0 +1,46 @@
+{
+	"works": [
+		{
+			"time": "2014年8月-至今",
+			"company": "神州泰岳智能数据技术有限公司",
+			"work": "使用div+css+bootstrap前端框架高度还原静态页面；使用jQuery对页面原型实现交互效果；"
+		},
+		{
+			"time": "2013年6月-2014年7月",
+			"company": "北京一统安易科技有限公司",
+			"work": "使用div+css高度还原静态页面；在现行浏览器中对页面兼容调整并书写css Hack；"
+		},
+		{
+			"time": "longlong ago",
+			"company": "北京点金银科技有限公司",
+			"work": "实现模板网站开发，修改模板框架布局；ps企业站banner图片；"
+		}
+	],
+	"skill":[
+		{
+			"imgUrl":"js.png",
+			"name":"javascript",
+			"how":"熟练"
+		},
+		{
+			"imgUrl":"angular.png",
+			"name":"angular",
+			"how":"熟练"
+		},
+		{
+			"imgUrl":"css.png",
+			"name":"html/css",
+			"how":"熟练"
+		},
+		{
+			"imgUrl":"ps.png",
+			"name":"ps",
+			"how":"熟练"
+		},
+		{
+			"imgUrl":"nodejs.png",
+			"name":"node",
+			"how":"熟练"
+		}
+	]
+} 

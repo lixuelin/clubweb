@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*-----notes start----*/
+.main {
+  margin-top: 74px;
+}
+.notes-cont-head h1 {
+  font-size: 26px;
+  text-align: center;
+}
+.notes-cont-code {
+  padding: 10px;
+  line-height: 150%;
+}
+.notes-cont-code p {
+  text-indent: 2em;
+}
+.notes-cont-code pre {
+  text-align: left;
+}
+.notes-cont-foot {
+  padding-top: 10px;
+  border-top: 1px dashed  #ccc;
+}
+.notes-cont-foot .prve-page,
+.notes-cont-foot .next-page {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-cont-foot .next-page {
+  text-align: right;
+}
+/*-----notes end----*/

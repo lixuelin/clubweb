@@ -1,0 +1,333 @@
+@charset "utf-8";
+body {
+  background: #f2f2f2;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.padd0 {
+  padding: 0;
+}
+/*----前端head  start----*/
+.font-head {
+  padding: 15px 0;
+  background: #122B40;
+}
+.font-logo {
+  transition: all ease-in-out 0.8s;
+}
+.font-logo:hover {
+  border-radius: 10px;
+}
+.font-head .font-nav a {
+  padding: 8px 10px;
+}
+.font-nav {
+  padding: 4px 0;
+}
+.font-nav a {
+  margin: 0 10px;
+  color: #fff;
+}
+.font-nav a:hover {
+  color: #122B40;
+}
+/*----前端head  end----*/
+.main {
+  margin: 15px 0;
+  margin-top: 89px;
+}
+.banner-list img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*----前端模块 start----*/
+.column {
+  position: relative;
+  margin: 35px 0;
+}
+.column-hr {
+  border-top: 1px solid #999;
+}
+.column-name {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  padding: 5px 35px;
+  border: 1px solid #999;
+  background: #fff;
+  border-radius: 3px;
+}
+/*----前端模块 end----*/
+/*----前端知识 start----*/
+.font-box {
+  padding: 10px;
+  padding-left: 225px;
+  min-height: 160px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.font-img {
+  margin-left: -215px;
+  width: 200px;
+  height: 140px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.font-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  transition: all ease-in-out 0.7s;
+  cursor: pointer;
+}
+.font-img img:hover {
+  transform: scale(1.5);
+}
+.font-cont a {
+  text-decoration: none;
+}
+.font-cont-head-title {
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #122B40;
+}
+.font-cont-head-title:hover {
+  color: #337ab7;
+}
+.font-cont-auther {
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: #ccc;
+  border-bottom: 1px dashed #999;
+}
+.font-cont-auther time {
+  padding-left: 20px;
+}
+.font-cont-bewrite {
+  margin-top: 5px;
+  color: #666;
+}
+.font-knowledge {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 3px rgba(0, 0, 0, 0.1);
+}
+.font-knowledge-panel {
+  border-color: #fff;
+}
+.font-knowledge-panel-head {
+  color: #122B40;
+  background-color: #fff;
+  border-bottom-color: #ccc;
+}
+.font-knowledge-panel-body {
+  padding: 10px 0 15px 0;
+}
+.knowledge-class {
+  margin: 0;
+}
+.knowledge-class li {
+  padding: 0 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 30px;
+  border-bottom: 1px solid #d3d2d2;
+  transition: all ease-out 0.7s;
+  cursor: pointer;
+}
+.knowledge-class li:hover {
+  background: #F1F1F1;
+}
+.knowledge-class li:hover a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.knowledge-class li a {
+  color: #122B40;
+}
+.font-case {
+  position: relative;
+  height: 100%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.font-case a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  transition: opacity 0.7s ease 0s, transform 0.7s ease 0s,background 0.7s ease 0s;
+}
+.font-case a::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.font-case a img {
+  transition: transform ease-in-out 0.7s;
+}
+.font-case a:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+}
+.font-case a:hover img {
+  transform: scale(1.4);
+}
+.font-case-cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.font-case-cont:hover::after,
+.font-case-cont:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+.font-case-cont:hover h4,
+.font-case-cont:hover p {
+  opacity: 1;
+}
+.font-case-cont::after,
+.font-case-cont::before {
+  bottom: 10px;
+  content: "";
+  left: 10px;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+.font-case-cont::after {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: scale(1, 0);
+}
+.font-case-cont::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: scale(0, 1);
+}
+.font-case-cont h4 {
+  opacity: 0;
+  padding-top: 20%;
+  text-align: center;
+}
+.font-case-cont p {
+  opacity: 0;
+  padding: 0 15px;
+  font-size: 12px;
+  text-indent: 2em;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.font-books-list {
+  float: left;
+  padding: 0 15px;
+  width: 20%;
+}
+.font-book {
+  padding: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.font-book a {
+  display: block;
+  padding: 5px 0;
+}
+.font-book-cont {
+  border-top: 1px solid #CCC;
+}
+.font-book-cont a {
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+}
+.font-book-cont h4 {
+  padding: 0 5px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.font-book-cont p {
+  padding: 0 5px;
+  font-size: 12px;
+  text-indent: 2em;
+  text-align: justify;
+}
+/*----前端知识 end----*/
+/*-----分类 start-----*/
+.notes-class {
+  margin-top: 20px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.notes-class li {
+  float: left;
+  margin-right: 10px;
+  padding: 3px 15px;
+  background: #fff;
+  border: 1px solid #BCE8F1;
+  border-radius: 4px;
+}
+.notes-class li:not(:first-child):hover {
+  background: #337ab7;
+}
+.notes-class li:not(:first-child):hover a {
+  color: #fff;
+}
+.notes-class li:not(:first-child):hover a:hover {
+  text-decoration: none;
+}
+.notes-class li:first-child {
+  background: none;
+  border: none;
+}
+/*-----分类 end-----*/
+/*-----前端底部 start----*/
+.font-footer {
+  padding: 20px;
+  background: #122B40;
+}
+.font-footer address {
+  margin-bottom: 0;
+}
+.font-addresss {
+  color: #fff;
+  text-align: center;
+}
+.font-addresss img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+.font-addresss p {
+  display: inline-block;
+}
+/*-----前端底部 end----*/
